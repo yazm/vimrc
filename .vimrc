@@ -16,10 +16,12 @@ Plugin 'VundleVim/Vundle.vim'
 " 语法检查
 Plugin 'vim-syntastic/syntastic'
 Plugin 'tomasr/molokai'
-Plugin 'vim-scripts/taglist.vim'
+" Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/tComment'
 Plugin 'scrooloose/nerdtree'
+
+Plugin 'majutsushi/tagbar'
 
 " vim状态提示栏
 Plugin 'Lokaltog/vim-powerline'
@@ -73,6 +75,7 @@ endif
 
 set number
 set numberwidth=5
+set ignorecase
 
 " Make it obvious where 80 characters is
 set textwidth=80
